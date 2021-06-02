@@ -4,5 +4,9 @@
     @apply absolute inset-0 z-0 transform -skew-y-6 rounded-md shadow-md bg-gradient-to-r from-blue-400 to-red-300 sm:skew-y-0 sm:-rotate-6
 }
 
+.btn {
+    @apply inline-block px-6 py-2 mt-4 text-sm font-bold text-white rounded-md shadow-md bg-gradient-to-r from-blue-400 to-red-300
+}
+
 @tailwind utilities;
 @tailwind components;
