@@ -1,3 +1,8 @@
 @tailwind base;
+
+.bg-card {
+    @apply absolute inset-0 z-0 transform -skew-y-6 rounded-md shadow-md bg-gradient-to-r from-blue-400 to-red-300 sm:skew-y-0 sm:-rotate-6
+}
+
 @tailwind utilities;
 @tailwind components;
